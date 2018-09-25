@@ -1,4 +1,4 @@
-# 10-3
+# 10-3 Triple string print
 
 # Your functions should appear here
 def populate_list(strengur):

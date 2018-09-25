@@ -1,4 +1,5 @@
-# 10-2
+# 10-2 Brytur streng nidur i lista
+
 import string
 
 def to_list(strengur):

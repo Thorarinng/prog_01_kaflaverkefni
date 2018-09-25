@@ -1,4 +1,4 @@
-# 10-4
+# 10-4 Pascal triangle
 
 def make_new_row(row):
     length=len(row)

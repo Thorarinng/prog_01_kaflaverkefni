@@ -1,4 +1,4 @@
-# 10-1
+# 10-1 Tekur ut punkta, bil og stafi sem koma oft fyrir 
 
 import string
 

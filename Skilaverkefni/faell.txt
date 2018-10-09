@@ -1,0 +1,3 @@
+This is a strange file. This file is used to check on the output on my program.
+New line is started and I hope that comes out correctly in the output.
+This will be all for now.

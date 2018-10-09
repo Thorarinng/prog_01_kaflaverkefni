@@ -1,0 +1,110 @@
+# adal atridi fyrir prof
+
+> Functions
+> Files
+> try - except
+> Lists
+> Tuples (,)
+> Default Values
+
+
+Functions
+	strip()
+	replace()
+	append()
+	extend()
+
+	hvað kallar fallið á?
+	hverju skilar fallið?
+	er þetta skýrt og einfalt?
+	þarf fleirri functions fyrir aðrar aðgerðir?
+
+
+Files
+	with  - Þá þarf ekki að gera close
+	close
+
+Exceptions
+	try:
+	except:
+
+	try:
+		Anything
+	except: ValueError
+
+	except: Exceptions
+		eitthvad stuff
+		print
+
+	Lists og Tuples
+		range
+		len
+		string
+		sort # rifja upp vel
+		reverse # rifja upp vel
+
+		mutable vs immutable
+			listar eru mutable []
+			tuples eru ekki mutable (,) # "," er það sem byr til tuples ekki svigarnir
+
+
+string.punctioation # lesa vel og leysa daemid almennilega
+
+
+# default er mikilvaegt concept
+def default_values(alphas, beta = "hello", zet = "bye"): # alpha verdur ad vera en beta er optional
+
+#kalla a default fallid
+default_values("come", zet="hello") # verdur ad setja inn streng fyrir alphas, en breyta ma zet default
+
+ 
+if
+else
+
+for
+	enumerate
+
+
+import
+	string
+	math
+	random
+
+
+string
+	format
+		"Bla {:>6.d} bla bla".format(breyta)
+	loop i gegnum string
+
+
+
+	base
+		Hvar byrjar forritið?
+			-input
+			-Þarf ég að breyta týpum: type; int, float, string
+
+		Hvar endar það?
+			-print
+			-return
+
+
+#alskyns daemi um functions
+	def main():
+		input...
+		.... breyta einhverju með helst Functions()
+
+		# ef lesid er yfir i breytu þarf function að hafa return
+		my_input = get_input()  # þarf alltaf að geyma input einhverstaðar í breytu. String, tölur, listar
+
+		# listinn hefur return sem er lika listi
+		even_numb = find_evens(my_input)  # tekur inn lista og skilar lika ut i nyjann lista yfir i even_numb
+
+		# hefur ekkert return og þarf því ekki að skila inn í breytu. Breytir bara upprunalegum lista
+		triple_list(even_numb)
+
+
+		print_results(even_numb)
+
+	main()
+
+
